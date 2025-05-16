@@ -1,0 +1,14 @@
+<!-- home.php -->
+<?php include('includes/header.php'); ?>
+<?php include('includes/sidebar.php'); ?>
+
+<div class="main-content">
+    <h1>Overview</h1>
+    <div class="overview-cards">
+        <div class="card">Borrow New Item</div>
+        <div class="card">Available Items <br><span>267</span></div>
+        <div class="card">Recently Borrowed</div>
+        <div class="card">Recent Activity</div>
+        <div class="card">Top Borrowed Items</div>
+    </div>
+</div>
