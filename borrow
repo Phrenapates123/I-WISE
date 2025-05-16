@@ -1,0 +1,28 @@
+<?php include('includes/header.php'); ?>
+<?php include('includes/sidebar.php'); ?>
+
+<div class="main-content">
+    <div class="item-detail">
+        <h2>Item Name</h2>
+        <p><strong>Item Quantity:</strong> 30</p>
+        <p><strong>Location:</strong> Library Room 101</p>
+        <p><strong>Item Description:</strong> Description of the item goes here.</p>
+        <button onclick="openModal()">Borrow</button>
+    </div>
+</div>
+
+<!-- Borrow Popup Modal -->
+<div class="modal" id="borrowModal">
+    <div class="modal-content">
+        <h3>Item Name</h3>
+        <p>Item Quantity: 30</p>
+        <label>Select Borrowing Date: <input type="date"></label><br>
+        <label>Reason For Borrowing: <input type="text"></label><br>
+        <label>Select Return Date: <input type="date"></label><br>
+        <label><input type="checkbox"> I have read the <a href="#">Terms and Conditions</a></label><br>
+        <button>Borrow</button>
+        <button onclick="closeModal()" class="cancel-btn">Cancel</button>
+    </div>
+</div>
+
+<script src="js/modal.js"></script>
