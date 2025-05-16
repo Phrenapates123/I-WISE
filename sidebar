@@ -1,0 +1,9 @@
+<!-- sidebar.php -->
+<div class="sidebar">
+    <ul>
+        <li><a href="home.php">Home</a></li>
+        <li><a href="item-list.php">Item List</a></li>
+        <li><a href="#">Borrowed Items</a></li>
+        <li><a href="#">Admins</a></li>
+    </ul>
+</div>
