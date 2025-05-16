@@ -1,0 +1,30 @@
+<!-- item-list.php -->
+<?php include('includes/header.php'); ?>
+<?php include('includes/sidebar.php'); ?>
+
+<div class="main-content">
+    <h1>Item List</h1>
+    <div class="item-list">
+        <div class="item-card">
+            <div class="item-image"></div>
+            <div class="item-info">
+                <h3>Item 1</h3>
+                <button>Borrow</button>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-image"></div>
+            <div class="item-info">
+                <h3>Item 2</h3>
+                <button>Borrow</button>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-image"></div>
+            <div class="item-info">
+                <h3>Item 3</h3>
+                <button>Borrow</button>
+            </div>
+        </div>
+    </div>
+</div>
