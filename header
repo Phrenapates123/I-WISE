@@ -1,0 +1,6 @@
+<!-- header.php -->
+<div class="header">
+    <div class="logo">BOOK WISE</div>
+    <input type="text" placeholder="Search item...">
+    <div class="profile-icon">👤</div>
+</div>
